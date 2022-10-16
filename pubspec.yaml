@@ -19,6 +19,7 @@ dependencies:
   shimmer: ^2.0.0
   google_fonts: ^3.0.1
   cupertino_icons: ^1.0.2
+  material_design_icons_flutter: ^5.0.6996
 
   # Network
   dio: ^4.0.6
@@ -39,7 +40,8 @@ dependencies:
 
   #Storage
   shared_preferences: ^2.0.15
-  hive: ^2.2.3
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
 
   #Routing
   auto_route: ^5.0.1
@@ -50,8 +52,7 @@ dependencies:
   cached_network_image: ^3.2.1
   connectivity_plus: ^2.3.6+1
   logger: ^1.1.0
-
-  
+  flutter_dotenv: ^5.0.2
 
 dev_dependencies:
   flutter_test:
@@ -59,6 +60,7 @@ dev_dependencies:
 
   flutter_lints: ^2.0.0
   build_runner: ^2.2.0
+  hive_generator: ^1.1.2
   flutter_native_splash: ^2.2.7
   auto_route_generator: ^5.0.2
   freezed: ^2.1.0+1
@@ -68,3 +70,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+      - .env
