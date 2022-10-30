@@ -9,7 +9,6 @@ Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await dotenv.load(fileName: '.env');
   configureDependencies();
-  print('apiKey: ${dotenv.env['API_KEY']}');
   getIt.registerSingleton<AppRouter>(AppRouter());
 
   SystemChrome.setSystemUIOverlayStyle(
@@ -19,5 +18,7 @@ Future main() async {
     ),
   );
 
-  runApp(const App());
+  runApp(
+    const App(),
+  );
 }

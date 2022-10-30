@@ -53,6 +53,8 @@ dependencies:
   connectivity_plus: ^2.3.6+1
   logger: ^1.1.0
   flutter_dotenv: ^5.0.2
+  geolocator: ^7.6.0
+  geocoding: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -73,3 +75,5 @@ flutter:
 
   assets:
       - .env
+      - assets/images/
+      - assets/icons/
