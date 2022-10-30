@@ -13,13 +13,13 @@ class AppTypography {
 
   static final TextStyle headline2 = GoogleFonts.poppins(
     fontWeight: FontWeight.bold,
-    fontSize: 32,
+    fontSize: 30,
     color: ColorConstants.primaryColor,
   );
 
   static final TextStyle headline3 = GoogleFonts.poppins(
     fontWeight: FontWeight.bold,
-    fontSize: 30,
+    fontSize: 26,
     color: ColorConstants.primaryColor,
   );
 
@@ -31,19 +31,25 @@ class AppTypography {
 
   static final TextStyle headline5 = GoogleFonts.poppins(
     fontWeight: FontWeight.bold,
-    fontSize: 20,
+    fontSize: 18,
     color: ColorConstants.primaryColor,
   );
 
   static final TextStyle headline6 = GoogleFonts.poppins(
     fontWeight: FontWeight.w600,
-    fontSize: 18,
+    fontSize: 16,
     color: ColorConstants.primaryColor,
   );
 
   static final TextStyle title = GoogleFonts.poppins(
     fontWeight: FontWeight.w600,
     fontSize: 14,
+    color: ColorConstants.primaryColor,
+  );
+
+  static final TextStyle subTitle = GoogleFonts.poppins(
+    fontWeight: FontWeight.w600,
+    fontSize: 12,
     color: ColorConstants.primaryColor,
   );
 
